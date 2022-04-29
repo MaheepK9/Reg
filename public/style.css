@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body {
 	margin:  0;
-}
-.page-content {
-	width: 100%;
-	margin:  0 auto;
-	background-image: -moz-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
+    background-image: -moz-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
     background-image: -webkit-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
     background-image: -ms-linear-gradient( 136deg, rgb(254,225,64) 0%, rgb(250,112,154) 100%);
-	display: flex;
-	display: -webkit-flex;
+   
+}
+.page-content {
+	display: flexbox;
 	justify-content: center;
 	-o-justify-content: center;
 	-ms-justify-content: center;
@@ -23,8 +23,8 @@ body {
 .form-content  {
 	
 	margin:  0px;
-	font-family: 'Open Sans', sans-serif;
-	position: relative;
+	font-family: monsterrat;
+	height: auto;
 	display: flex;
 	display: -webkit-flex;
 }
@@ -33,6 +33,7 @@ body {
 	color: #fff;
 	font-weight: 400;
     width: 100%;
+    
     margin-top: 80px;
 }
 .form-content .form-left img {
@@ -48,7 +49,7 @@ body {
 .form-content .form-detail {
     padding: 35px 50px 0px;
 	margin-bottom: 0;
-	position: relative;
+	height: 100%;
 	width: 100%;
 	background: #fff;
 	box-shadow: 10px 8px 5px 10px rgba(0, 0, 0, 0.15);
@@ -64,7 +65,7 @@ body {
 	font-weight: 600;
 	font-size: 16px;
 	margin-bottom: 0px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: monsterrat;
 }
 .form-content .form-detail .form-row label#valid {
     position: absolute;
@@ -195,12 +196,14 @@ body {
 /* Responsive */
 @media screen and (max-width: 991px) {
 	.form-content {
-		margin: 180px 20px;
+		margin: 190px 0px;
 		flex-direction:  column;
 		-o-flex-direction:  column;
 		-ms-flex-direction:  column;
 		-moz-flex-direction:  column;
 		-webkit-flex-direction:  column;
+        width: 100%;
+        height: 100%;
 	}
 	.form-content .form-left {
 		width: 100%;
@@ -232,4 +235,5 @@ body {
 	    margin-bottom: 50px;
 	}
 }
+
 
