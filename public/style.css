@@ -24,8 +24,7 @@ body {
 	
 	margin:  0px;
 	font-family: monsterrat;
-	height: auto;
-	display: flex;
+	height: 100%;
 	display: -webkit-flex;
 }
 .form-content .form-left {
@@ -236,4 +235,16 @@ body {
 	}
 }
 
-
+.form-detail #team{
+	border-radius: 5%;
+	text-align: center;
+	font-weight: 500;
+	font-size: 15px;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	background-color:#373be3;
+	border-color: #373be3;
+	letter-spacing: 1px; 
+    padding: 8px 28px;
+    margin-top: 30px;
+}
