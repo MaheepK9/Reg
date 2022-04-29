@@ -288,11 +288,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 35px;
+  
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 3px;
+  border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
@@ -473,10 +474,8 @@ section {
 
 .services .icon-box {
   padding: 30px;
-  position: relative;
   
   overflow: hidden;
-  
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;

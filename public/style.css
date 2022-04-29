@@ -22,7 +22,7 @@ body {
 }
 .form-content  {
 	
-	margin: 36px 0;
+	margin:  0px;
 	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	display: flex;
@@ -46,7 +46,8 @@ body {
 
 
 .form-content .form-detail {
-    padding: 35px 50px 41px;
+    padding: 35px 50px 0px;
+	margin-bottom: 0;
 	position: relative;
 	width: 100%;
 	background: #fff;
@@ -55,6 +56,7 @@ body {
 }
 .form-content .form-detail .form-row {
     width: 100%;
+	margin-bottom: 0px;
     position: relative;
 }
 .form-content .form-detail .form-row label {
@@ -230,3 +232,4 @@ body {
 	    margin-bottom: 50px;
 	}
 }
+

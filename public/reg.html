@@ -21,6 +21,7 @@
 			<div class="form-left">
 				<img src="Group 2.png" alt="form">	
 			</div>
+
 			
 		
 			
@@ -30,7 +31,7 @@
 				</div>
 				<br>
 
-				<div class="form-row">
+				<div class="formchoose">
 					<select name="team" id="team">
 					  <option value="0">Team Strength</option>
 					  <option value="1">One member team</option>
@@ -38,47 +39,87 @@
 					  <option value="3">Five member team</option>
 					</select>
 				  </div><br>
+				
 			
-				<div class="form-row">
-						<label for="team_name">Team Name</label>
+				<div class="form-row" id="formdata">
+						<label for="team_name" id="teamname1">Team Name</label>
 						<input type="text" name="branch" id="teamname"  style="font-size: 10px;" class="input-text" required />
-					</div><br>
-                <div class="form-row">
-					<label for="name">Team Leader Name</label>
+					</div>
+                <div class="form-row" id="formdata">
+					<label for="name" id="teamleadername1">Team Leader Name</label>
 					<input type="text" name="name" id="teamleadername"  style="font-size: 10px;" class="input-text" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="name">Member 2</label>
-					<input type="text" name="name" id="member2"  style="font-size: 10px;" class="input-text" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="name">Member 3</label>
-					<input type="text" name="name" id="member3"  style="font-size: 10px;" class="input-text" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="name">Member 4</label>
-					<input type="text" name="name" id="member4"  style="font-size: 10px;" class="input-text" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="name">Member 5</label>
-					<input type="text" name="name" id="member5"  style="font-size: 10px;" class="input-text" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="email">E-Mail</label>
-					<input type="email" name="email" id="email" class="input-text" placeholder="eg : xyz@gmail.com" style="font-size: 10px;" pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
-				</div><br>
-
-				<div class="form-row">
-					<label for="phone_no">Phone</label>
-					<input type="tel" name="phone_no" id="phone_no" class="input-text" placeholder="eg : 74510XXXXX" style="font-size: 10px;" onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
 				</div>
 
-			
+				<div class="form-row" id="formdata">
+					<label for="name" id="member21">Member 2 Name</label>
+					<input type="text" name="name" id="member2"  style="font-size: 10px;" class="input-text" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="name" id="member31">Member 3 Name</label>
+					<input type="text" name="name" id="member3"  style="font-size: 10px;" class="input-text" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="name" id="member41">Member 4 Name</label>
+					<input type="text" name="name" id="member4"  style="font-size: 10px;" class="input-text" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="name" id="member51">Member 5 Name</label>
+					<input type="text" name="name" id="member5"  style="font-size: 10px;" class="input-text" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="email" id="email1">Team Leader E-Mail</label>
+					<input type="email" name="email" id="email" class="input-text"  pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="email" id="email2">Member 2 E-Mail</label>
+					<input type="email" name="email" id="email" class="input-text"  pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="email" id="email3">Member 3 E-Mail</label>
+					<input type="email" name="email" id="email" class="input-text"  pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="email" id="email4">Memebr 4 E-Mail</label>
+					<input type="email" name="email" id="email" class="input-text"  pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="email" id="email5">Member 5 E-Mail</label>
+					<input type="email" name="email" id="email" class="input-text"  pattern=".+@gmail\.com|.+@akgec\.ac\.in" required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="phone_no" id="phone_no1">Team Leader Phone No.</label>
+					<input type="tel" name="phone_no" id="phone_no" class="input-text"  onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="phone_no" id="phone_no2">Member 2 Phone No.</label>
+					<input type="tel" name="phone_no" id="phone_no" class="input-text"  onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="phone_no" id="phone_no3">Member 3 Phone No.</label>
+					<input type="tel" name="phone_no" id="phone_no" class="input-text"  onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="phone_no" id="phone_no4">Member 4 Phone No.</label>
+					<input type="tel" name="phone_no" id="phone_no" class="input-text"  onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
+				</div>
+
+				<div class="form-row" id="formdata">
+					<label for="phone_no" id="phone_no5">Member 5 Phone No.</label>
+					<input type="tel" name="phone_no" id="phone_no" class="input-text"  onkeypress=" onlyNumberKey(event)" minlength="10" maxlength="10" pattern="[789][0-9]{9}"  required />
+				</div>
+
 				
 				<div class="form-row-last">
 					<input type="button"  style="text-align: center;" name="register" class="register" value="Register" id="register" onclick="submit()">
@@ -181,47 +222,80 @@
 		$("#team").change(function() {
 			var val = $(this).val();      
 			if (val == '0') {
-				$('#teamname').hide();
-				$('#teamleadername').hide();
-				$('#member2').hide();
-				$('#member3').hide();
-				$('#member4').hide();
-				$('#member5').hide();
-				$('#email').hide();
-				$('#phone_no').hide();
+				$('#formdata').hide();
+				$('#teamname').show();
+				$('#teamleadername1').hide();
+				$('#member21').hide();
+				$('#member31').hide();
+				$('#member41').hide();
+				$('#member51').hide();
+				$('#email1').hide();
+				$('#phone_no1').hide();
+				$('#email2').hide();
+				$('#email3').hide();
+				$('#email4').hide();
+				$('#email5').hide();
+				$('#phone_no2').hide();
+				$('#phone_no3').hide();
+				$('#phone_no4').hide();
+				$('#phone_no5').hide();
 			} 
 
 			else if (val == '1') {
 				$('#teamname').show();
-				$('#teamleadername').show();
-				$('#member2').hide();
-				$('#member3').hide();
-				$('#member4').hide();
-				$('#member5').hide();
-				$('#email').show();
-				$('#phone_no').show();
+				$('#teamleadername1').show();
+				$('#member21').hide();
+				$('#member31').hide();
+				$('#member41').hide();
+				$('#member51').hide();
+				$('#email1').show();
+				$('#phone_no1').show();
+				$('#email2').hide();
+				$('#email3').hide();
+				$('#email4').hide();
+				$('#email5').hide();
+				$('#phone_no2').hide();
+				$('#phone_no3').hide();
+				$('#phone_no4').hide();
+				$('#phone_no5').hide();
 			} 
 
 			else if (val == '2') {
 				$('#teamname').show();
 				$('#teamleadername').show();
-				$('#member2').show();
-				$('#member3').hide();
-				$('#member4').hide();
-				$('#member5').hide();
-				$('#email').show();
-				$('#phone_no').show();
+				$('#member21').show();
+				$('#member31').hide();
+				$('#member41').hide();
+				$('#member51').hide();
+				$('#email1').show();
+				$('#phone_no1').show();
+				$('#email2').show();
+				$('#email3').hide();
+				$('#email4').hide();
+				$('#email5').hide();
+				$('#phone_no2').show();
+				$('#phone_no3').hide();
+				$('#phone_no4').hide();
+				$('#phone_no5').hide();
 			} 
 
 			else if (val == '3') {
 				$('#teamname').show();
-				$('#teamleadername').show();
-				$('#member2').show();
-				$('#member3').show();
-				$('#member4').show();
-				$('#member5').show();
-				$('#email').show();
-				$('#phone_no').show();
+				$('#teamleadername1').show();
+				$('#member21').show();
+				$('#member31').show();
+				$('#member41').show();
+				$('#member51').show();
+				$('#email1').show();
+				$('#phone_no1').show();
+				$('#email2').show();
+				$('#email3').show();
+				$('#email4').show();
+				$('#email5').show();
+				$('#phone_no2').show();
+				$('#phone_no3').show();
+				$('#phone_no4').show();
+				$('#phone_no5').show();
 			} 
 			
 		}).change();
